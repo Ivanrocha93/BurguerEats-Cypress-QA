@@ -21,11 +21,11 @@
 
 ### Test case 02 - Cadastro com bicicleta
 
-- [X]Usuário deve se tornar entregador Bicicleta
+- [X] Usuário deve se tornar entregador Bicicleta
 
 ### Test case 03 - Cadastro com Van/Carro
 
-- [X]Usuário deve se tornar entregador Van/Carro
+- [X] Usuário deve se tornar entregador Van/Carro
 
 ### Test case 04 - CPF inválido
 
