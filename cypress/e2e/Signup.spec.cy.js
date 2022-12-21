@@ -5,8 +5,6 @@ import SignupFactory from '../Factories/SignupFactory'
 
 describe('test', function () {
 
-
-
     it('Usuário deve se tornar entregador Moto', function () {
 
         var deliver = SignupFactory.deliver()
@@ -43,8 +41,6 @@ describe('test', function () {
         signup.contentShouldBe()
     })
 
-
-
     it('CPF inválido', function () {
 
         var deliver = SignupFactory.deliver()
@@ -71,8 +67,6 @@ describe('test', function () {
 
     it('campos obrigatórios', function () {
 
-
-
         signup.go()
         signup.submit()
         signup.alertMessage('É necessário informar o nome')
@@ -82,7 +76,6 @@ describe('test', function () {
         signup.alertMessage('É necessário informar o número do endereço')
         signup.alertMessage('Selecione o método de entrega')
         signup.alertMessage('Adicione uma foto da sua CNH')
-
     })
 })
 

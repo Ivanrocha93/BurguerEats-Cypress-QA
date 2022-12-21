@@ -4,12 +4,12 @@
   "description": "Desafio de automação dos cenários de testes",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open"
+    "test": "yarn run cypress open"
   },
   "author": "Ivan Dantas Rocha",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^10.6.0",
+    "cypress": "^12.2.0",
     "cypress-file-upload": "^5.0.8",
     "faker": "^5.5.3",
     "gerador-validador-cpf": "^5.0.2"
